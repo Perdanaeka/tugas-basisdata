@@ -6,18 +6,18 @@ CREATE TABLE krs (nim char(10), kode char(10),nip char(10),
 
 // masukkan data dosen
 
-INSERT INTO dosen (nip,nama,alamat,agama)VALUES(‘B001’,’sisi’,’SURABAYA’,’islam’);
-INSERT INTO dosen (nip,nama,alamat,agama)VALUES(‘B002’,’susi’,’SEMARANG’,’islam’);
-INSERT INTO dosen (nip,nama,alamat,agama)VALUES(‘B003’,’siko’,’JAKARTA’,’islam’);
+INSERT INTO dosen (nip,nama,alamat,agama)VALUES(‘B001’,’saka’,’SURABAYA’,’islam’);
+INSERT INTO dosen (nip,nama,alamat,agama)VALUES(‘B002’,’loli’,’YOGYAKARTA’,’islam’);
+INSERT INTO dosen (nip,nama,alamat,agama)VALUES(‘B003’,’waisa’,’JAKARTA’,’islam’);
 
 // data mahasiswa
 
-INSERT INTO mahasiswa (nim,nama,alamat,agama)VALUES(‘1701’,’niko’,’jl.almahera’,’islam’);
+INSERT INTO mahasiswa (nim,nama,alamat,agama)VALUES(‘1701’,’neko’,’jl.almahera’,’islam’);
 INSERT INTO mahasiswa (nim,nama,alamat,agama)VALUES(‘1702’,’miko’,’jl.melati’,’kristen’);
-INSERT INTO mahasiswa (nim,nama,alamat,agama)VALUES(‘1703’,’siko’,’jl.mawar’,’islam’);
+INSERT INTO mahasiswa (nim,nama,alamat,agama)VALUES(‘1703’,’kiko’,’jl.mawar’,’islam’);
 
 // data krs
 
-INSERT INTO matakuliah (kode,nama,sks)VALUES(‘aaa’,’Bahasa’,’4’);
-INSERT INTO matakuliah (kode,nama,sks)VALUES(‘bbb’,’Arsitektur’,’4’);
-INSERT INTO matakuliah (kode,nama,sks)VALUES(‘ccc’,’Pemograman’,’5’);
+INSERT INTO matakuliah (kode,nama,sks)VALUES(‘aaa’,’Kalkulus’,’4’);
+INSERT INTO matakuliah (kode,nama,sks)VALUES(‘bbb’,’Matematika’,’4’);
+INSERT INTO matakuliah (kode,nama,sks)VALUES(‘ccc’,’Seni’,’5’);
