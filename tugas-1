@@ -1,7 +1,3 @@
-# tugas-basisdata
-# Nama : Perdana Eka
-# NIM  : 17.01.53.01.0172 
-
 CREATE DATABASE AKADEMIK;
 
 CREATE TABLE MAHASISWA (NIM char(10),NAMA varchar(50),AGAMA varchar(50));
