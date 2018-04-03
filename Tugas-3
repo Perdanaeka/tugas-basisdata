@@ -9,8 +9,8 @@
    update krs set huruf = “D” where (akhir < 60)&&(akhir >=40);
    update krs set huruf = “E” where akhir < 40;
 //update untuk menentukan bobot
-   update krs set bobot = “4” where bobot = “A”;
-   update krs set bobot = “3” where bobot = “B”;
-   update krs set bobot = “2” where bobot = “C”;
-   update krs set bobot = “1” where bobot = “D”;
-   update krs set bobot = “0” where bobot = “E”;
+   update krs set bobot = “4” where huruf = “A”;
+   update krs set bobot = “3” where huruf = “B”;
+   update krs set bobot = “2” where huruf = “C”;
+   update krs set bobot = “1” where huruf = “D”;
+   update krs set bobot = “0” where huruf = “E”;
