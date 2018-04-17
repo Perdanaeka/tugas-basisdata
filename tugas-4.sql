@@ -5,5 +5,5 @@
  select akhir from mahasiswa where(akhir>75)&&(akhir<85) ;
  select nama,huruf from mahasiswa where huruf='B' ;
  select nim,matkul from mahasiswa ;
- select alamat from mahasiswa group by alamat having (alamat) >1 order by alamat asc ;
+ select distinct alamat from mahasiswa ;
  select nama,alamat from mahasiswa where kota='demak' and kota='semarang' ;
