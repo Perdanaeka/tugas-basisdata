@@ -13,4 +13,4 @@
 --Tampilkan nim,nama mahasiswa dan total sks yang diambil
  SELECT krs.nim,mahasiswa.nama,sum(matakuliah.sks) FROM krs,mahasiswa,matakuliah WHERE krs.nim=mahasiswa.nim AND krs.kode=matakuliah.kode GROUP BY nim;
 --Tampikan nip dan nama dosen yang tidak mengajar
- SELECT dosen.nip,dosen.nama FROM dosen WHERE dosen.nip!=krs.nip;
+ SELECT dosen.nip,dosen.nama FROM krs,dosen WHERE dosen.nip!=krs.nip;
